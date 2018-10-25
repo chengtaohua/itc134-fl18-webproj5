@@ -46,6 +46,10 @@ k)	Bitcoin operates some ATM’s
 i)	Cash can be withdrawn against your account
 
 ### History & value (Camila)
+Bitcoin was designed by a pseudonymous known as Satoshi Nakamoto, to work as a medium of exchange that would work as a decentralized currency using cryptography to control its management. The domain was register is 2008, but only in 2009 it got announced after the project got registered on SourceForge.net, an open source software and its first version is released. The lack of a line interface furthers the speculation that it was developed by more than one person. By the end of 2009, Bitcoin establishes its value of US$1 = 1,309.03BTC and the equation used was the same that included the cost of electricity to run a machine that generated Bitcoins.In 2010 a platform called MtGox was created by Jed McCaleb as a currency exchange market. In the same year a vulnerability that causes Bitcoins to be improperly verified is discovered and 184 billion Bitcoins are generated. In December 2010 the first mobile Bitcoin transaction occurred. In January 2011, Three hundred trillion dollars are traded for 12 BTC. In February 2011, Bitcoin reaches parity with the US dollar for the first time. In June 2011, MtGox suffers a significant breach of security and requires the site to shut down for seven hours. The issue forced MtGox price down to US$17.51 to US$0.01 per Bitcoin
+
+https://www.youtube.com/watch?time_continue=102&v=Um63OQz3bjo
+
 ### Competition (Chengtao)
 ### Pluses & minuses (Chengtao)
 ### Recommendation (team will do at end)
