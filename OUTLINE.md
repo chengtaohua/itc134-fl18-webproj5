@@ -1,5 +1,5 @@
 # ITC 134 Web Project
-/Camila Christensen, Chengtao Hua, Andy Fessel/
+Camila Christensen, Chengtao Hua, Andy Fessel
 
 ## OUTLINE
 ### Bitcoin is (Andy)
