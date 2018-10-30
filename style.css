@@ -53,8 +53,9 @@ nav ul {
     padding-right: 2em;
 }
 
-nav ul li {
+nav ul li, nav ul li a {
     text-transform: capitalize;
+    color: white;
     display: block;
     float: left;
     margin-right: 1.75em;
@@ -67,7 +68,7 @@ nav ul li {
     transition: width 0.25s;
 }
 
-nav ul li:hover {
+nav ul li:hover, nav ul li a:hover {
     text-decoration: none;
     background-color: white;
     color: #ff8c00;
