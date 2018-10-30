@@ -50,6 +50,26 @@ Bitcoin was designed by a pseudonymous known as Satoshi Nakamoto, to work as a m
 
 https://www.youtube.com/watch?time_continue=102&v=Um63OQz3bjo
 
-### Competition (Chengtao)
-### Pluses & minuses (Chengtao)
+### Pros & cons (Chengtao)
+#### Pros
+- Encrypted & secure
+- Privacy (untraceable)
+- Decentralized
+- Non-governmental & non-gold-based (not resource-dependent)
+- Diversified investment
+
+#### Cons
+- Abused by criminals
+- Dropped 66% within a year -> Not a stable long-term investment
+- Energy consumption -> Mining is becoming more difficult
+- Not conceptually unique
+- Limited offline acceptance
+
+###Competition (Chengtao)
+Other models of cryptocurrency
+* Proof-of-authority
+* Proof-of-space
+* Proof-of-stake
+* Proof-of-work
+
 ### Recommendation (team will do at end)
