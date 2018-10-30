@@ -9,7 +9,7 @@ html {
     background-color: whitesmoke;
     background-size: contain;
     background-repeat: repeat-y;
-    hyphens: auto;
+    hyphens: none;
     overflow: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
