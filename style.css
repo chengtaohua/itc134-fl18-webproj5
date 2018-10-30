@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://unpkg.com/aos@2.3.1/dist/aos.css');
 
 html {
     font-family: "Titillium Web", "Helvetica Neue", Arial, sans-serif;
