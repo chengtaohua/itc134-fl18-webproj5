@@ -54,10 +54,11 @@ nav ul {
 }
 
 nav ul li {
+    text-transform: capitalize;
     display: block;
     float: left;
     margin-right: 1.75em;
-    width: 3em;
+    width: 5em;
     -o-transition: width 0.25s;
     -ms-transition: width 0.25s;
     -moz-transition: width 0.25s;
@@ -69,7 +70,7 @@ nav ul li:hover {
     text-decoration: none;
     background-color: white;
     color: darkorange;
-    width: 4.5em;
+    width: 6em;
 }
 
 main {
