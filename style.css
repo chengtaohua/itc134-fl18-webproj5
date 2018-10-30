@@ -150,3 +150,13 @@ main #s2 {
     background-image: linear-gradient(rgba(255, 140, 0, 0.75), rgba(255, 140, 0, 0.75)), url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Seattle_-_Crescent_Manufacturing_Company_-_1900.jpg");
     background-size: cover;
 } 
+
+main #s3 {
+    background-image: linear-gradient(rgba(255, 140, 0, 0.75), rgba(255, 140, 0, 0.75)), url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Seattle_-_Crescent_Manufacturing_Company_-_1900.jpg");
+    background-size: cover;
+}
+
+main #s4 {
+    background-image: linear-gradient(rgba(255, 140, 0, 0.75), rgba(255, 140, 0, 0.75)), url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Seattle_-_Crescent_Manufacturing_Company_-_1900.jpg");
+    background-size: cover;
+} 
