@@ -92,6 +92,7 @@
   margin-left: 60px;
   border: #00b358 solid 3.5px;
   padding: 0.25em 0.5em 0.25em 0.5em;
+  text-align: left;
 }
 
 .cd-timeline__content:after {
