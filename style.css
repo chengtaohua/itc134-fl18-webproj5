@@ -79,11 +79,19 @@ nav ul li:hover, nav ul li a:hover {
 
 main {
     display: block;
-    width: 90%;
+    width: 80%;
     margin: auto;
     background-color: white;
     font-size: 1.25em;
     line-height: 1.75em;
+}
+
+main a {
+    text-decoration: underline;
+}
+
+main a:hover {
+    text-decoration: none;
 }
 
 main section {
@@ -126,7 +134,7 @@ main #youtube-video {
 
 main article {
     padding: 2em 2em 1em 2em;
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: justify;
 }
@@ -138,10 +146,26 @@ main article h3 {
     border-bottom-style: solid;
 }
 
+main article img {
+    border: solid;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+main article figcaption {
+    text-align: center;
+    font-size: 0.85em;
+    line-height: 1.75em;
+    padding-top: 0.25em;
+    padding-bottom: 0;
+}
+
 main article .fine-print {
     border-left: solid 7px;
     padding: 0 0 0 1.25em;
-    margin-top: 1.5em;
+    margin: 0;
     width: 70%;
     font-size: 0.85em;
     line-height: 1.75em;
@@ -165,7 +189,7 @@ main article ul li:before {
 
 footer, footer p {
     display: block;
-    width: 90%;
+    width: 80%;
     height: auto;
     margin: auto;
     padding: 0.25em 0 0.25em 0;
@@ -192,31 +216,31 @@ footer p a:hover {
 }
 
 
-main #s1-pic {
+main #s1 {
     background-image: linear-gradient(rgba(255, 140, 0, 0.75), rgba(255, 140, 0, 0.75)), url("img/s1.jpg");
     background-size: cover;
 }
 
-main .s1 h3, main .s1 em, main .s1 ul li:before {
+main .s1 h3, main .s1 em, main .s1 a, main .s1 a:visited, main .s1 ul li:before {
     color: #ff8c00;
     border-color: #ff8c00;
 }
 
-main .s1 .fine-print {
+main .s1 img, main .s1 .fine-print {
     border-color: #ff8c00;
 }
 
-main #s2-pic {
+main #s2 {
     background-image: linear-gradient(rgba(0, 179, 88, 0.75), rgba(0, 179, 88, 0.75)), url("img/s2.jpg");
     background-size: cover;
 } 
 
-main #s3-pic {
+main #s3 {
     background-image: linear-gradient(rgba(25, 36, 177, 0.75), rgba(25, 36, 177, 0.75)), url("img/s3.jpg");
     background-size: cover;
 }
 
-main #s4-pic {
+main #s4 {
     background-image: linear-gradient(rgba(255, 61, 0, 0.75), rgba(255, 61, 0, 0.75)), url("img/s4.jpg");
     background-size: cover;
 } 
