@@ -7,7 +7,7 @@
   display: block;
   height: auto;
   overflow-y: visible;
-  margin: 0;
+  margin: auto;
 }
 
 .cd-timeline__container {
