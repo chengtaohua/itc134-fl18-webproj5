@@ -4,7 +4,7 @@
 html {
     font-family: "Titillium Web", "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
-    line-height: 1.5em;
+    line-height: 1.75em;
     background-image: linear-gradient(rgba(144, 144, 144, 0.75), rgba(144, 144, 144, 0.75)), url("img/background.jpg");
     background-color: whitesmoke;
     background-size: contain;
@@ -14,6 +14,7 @@ html {
     -webkit-hyphens: none;
     hyphens: none;
     overflow: hidden;
+    overflow-x: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
@@ -21,12 +22,6 @@ html {
 a, a:visited {
     text-decoration: none;
 }
-
-::selection, a:hover {
-    color: white;
-    background: #ff8c00;
-}
-
 
 nav {
     display: block;
@@ -56,10 +51,12 @@ nav ul {
     display: block;
     float: right;
     padding-right: 2em;
+    list-style-type: none;
 }
 
 nav ul li, nav ul li a {
     text-transform: capitalize;
+    list-style-type: none;
     color: white;
     display: block;
     float: left;
@@ -87,7 +84,6 @@ main {
     background-color: white;
     font-size: 1.25em;
     line-height: 1.75em;
-    
 }
 
 main section {
@@ -133,7 +129,38 @@ main article {
     width: 80%;
     margin: auto;
     text-align: justify;
-    
+}
+
+main article h3 {
+    font-weight: 400;
+    font-size: 1.75em;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+main article .fine-print {
+    border-left: solid 7px;
+    padding: 0 0 0 1.25em;
+    margin-top: 1.5em;
+    width: 70%;
+    font-size: 0.85em;
+    line-height: 1.75em;
+}
+
+main article ul, main article ul li {
+    text-align: left;
+    list-style-type: none;
+    padding: 0 0 0.5em 0;
+    margin: 0;
+}
+
+main article ul li {
+    margin-left: 2em;
+}
+
+main article ul li:before {
+    content: "> ";
+    margin-right: 2em;
 }
 
 footer, footer p {
@@ -165,22 +192,31 @@ footer p a:hover {
 }
 
 
-main #s1 {
+main #s1-pic {
     background-image: linear-gradient(rgba(255, 140, 0, 0.75), rgba(255, 140, 0, 0.75)), url("img/s1.jpg");
     background-size: cover;
 }
 
-main #s2 {
+main .s1 h3, main .s1 em, main .s1 ul li:before {
+    color: #ff8c00;
+    border-color: #ff8c00;
+}
+
+main .s1 .fine-print {
+    border-color: #ff8c00;
+}
+
+main #s2-pic {
     background-image: linear-gradient(rgba(0, 179, 88, 0.75), rgba(0, 179, 88, 0.75)), url("img/s2.jpg");
     background-size: cover;
 } 
 
-main #s3 {
+main #s3-pic {
     background-image: linear-gradient(rgba(25, 36, 177, 0.75), rgba(25, 36, 177, 0.75)), url("img/s3.jpg");
     background-size: cover;
 }
 
-main #s4 {
+main #s4-pic {
     background-image: linear-gradient(rgba(255, 61, 0, 0.75), rgba(255, 61, 0, 0.75)), url("img/s4.jpg");
     background-size: cover;
 } 
