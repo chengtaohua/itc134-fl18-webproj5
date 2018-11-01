@@ -15,7 +15,7 @@ html {
     hyphens: none;
     overflow: hidden;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -182,7 +182,7 @@ main article ul li {
     margin-left: 2em;
 }
 
-main article ul li:before {
+main article ul li::before {
     content: "> ";
     margin-right: 2em;
 }
@@ -221,7 +221,7 @@ main #s1 {
     background-size: cover;
 }
 
-main .s1 h3, main .s1 em, main .s1 a, main .s1 a:visited, main .s1 ul li:before {
+main .s1 h3, main .s1 em, main .s1 a, main .s1 a:visited, main .s1 ul li::before {
     color: #ff8c00;
     border-color: #ff8c00;
 }
@@ -233,7 +233,14 @@ main .s1 img, main .s1 .fine-print {
 main #s2 {
     background-image: linear-gradient(rgba(0, 179, 88, 0.75), rgba(0, 179, 88, 0.75)), url("img/s2.jpg");
     background-size: cover;
-} 
+}
+
+main .s2 .year {
+    color: #00b358;
+    font-size: 4em;
+    padding: 0;
+    margin: 0;
+}
 
 main #s3 {
     background-image: linear-gradient(rgba(25, 36, 177, 0.75), rgba(25, 36, 177, 0.75)), url("img/s3.jpg");
