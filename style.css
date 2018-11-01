@@ -5,7 +5,7 @@ html {
     font-family: "Titillium Web", "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
     line-height: 1.5em;
-    background-image: linear-gradient(rgba(144, 144, 144, 0.75), rgba(144, 144, 144, 0.75)), url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Seattle_-_Crescent_Manufacturing_Company_-_1900.jpg");
+    background-image: linear-gradient(rgba(144, 144, 144, 0.75), rgba(144, 144, 144, 0.75)), url("img/background.jpg");
     background-color: whitesmoke;
     background-size: contain;
     background-repeat: repeat-y;
@@ -166,21 +166,21 @@ footer p a:hover {
 
 
 main #s1 {
-    background-image: linear-gradient(rgba(255, 140, 0, 0.75), rgba(255, 140, 0, 0.75)), url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Seattle_-_Crescent_Manufacturing_Company_-_1900.jpg");
+    background-image: linear-gradient(rgba(255, 140, 0, 0.75), rgba(255, 140, 0, 0.75)), url("img/s1.jpg");
     background-size: cover;
 }
 
 main #s2 {
-    background-image: linear-gradient(rgba(0, 179, 88, 0.75), rgba(0, 179, 88, 0.75)), url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Seattle_-_Crescent_Manufacturing_Company_-_1900.jpg");
+    background-image: linear-gradient(rgba(0, 179, 88, 0.75), rgba(0, 179, 88, 0.75)), url("img/s2.jpg");
     background-size: cover;
 } 
 
 main #s3 {
-    background-image: linear-gradient(rgba(25, 36, 177, 0.75), rgba(25, 36, 177, 0.75)), url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Seattle_-_Crescent_Manufacturing_Company_-_1900.jpg");
+    background-image: linear-gradient(rgba(25, 36, 177, 0.75), rgba(25, 36, 177, 0.75)), url("img/s3.jpg");
     background-size: cover;
 }
 
 main #s4 {
-    background-image: linear-gradient(rgba(255, 61, 0, 0.75), rgba(255, 61, 0, 0.75)), url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Seattle_-_Crescent_Manufacturing_Company_-_1900.jpg");
+    background-image: linear-gradient(rgba(255, 61, 0, 0.75), rgba(255, 61, 0, 0.75)), url("img/s4.jpg");
     background-size: cover;
 } 
