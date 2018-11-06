@@ -90,9 +90,11 @@
 .cd-timeline__content {
   position: relative;
   margin-left: 60px;
-  border: #00b358 solid 3.5px;
-  padding: 0.25em 0.5em 0.25em 0.5em;
+  background-color: #cefce4;
+  padding: 0.1em 0.5em 0.1em 0.5em;
   text-align: left;
+  letter-spacing: -0.02em;
+  line-height: 1.5em;
 }
 
 .cd-timeline__content::after {
@@ -110,7 +112,7 @@
   height: 0;
   width: 0;
   border: 12px solid transparent;
-  border-right: 12px solid #00b358;
+  border-right: 12px solid #cefce4;
 }
 
 .cd-timeline__date {
@@ -124,13 +126,7 @@
 @media only screen and (min-width: 1170px) {
   .cd-timeline__content {
     margin-left: 0;
-    padding: 0 1.25em 0 1.25em;
     width: 45%;
-    -o-transition: background-color 0.5s;
-    -ms-transition: background-color 0.5s;
-    -moz-transition: background-color 0.5s;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
     /* Force Hardware Acceleration */
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
@@ -140,7 +136,7 @@
     top: 12px;
     left: 100%;
     border-color: transparent;
-    border-left-color: #00b358;
+    border-left-color: #cefce4;
   }
   .cd-timeline__date {
     position: absolute;
@@ -149,21 +145,21 @@
     top: 6px;
     padding-bottom: 0.25em;
   }
-
-  .cd-timeline__content:hover {
-    color: white !important;
-    background-color: #00b358 !important;
+  .cd-timeline__block:nth-child(odd) .cd-timeline__content {
+    float: left;
+    border-left: 7px solid #00b358;
   }
-
+  
   .cd-timeline__block:nth-child(even) .cd-timeline__content {
     float: right;
+    border-right: 7px solid #00b358;
   }
   .cd-timeline__block:nth-child(even) .cd-timeline__content::before {
     top: 12px;
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: #00b358;
+    border-right-color: #cefce4;
   }
   .cd-timeline__block:nth-child(even) .cd-timeline__date {
     left: auto;
