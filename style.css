@@ -312,7 +312,7 @@ main #s4 {
 
 main .s4 .box {
     background-color: #f8e2dc;
-    border-top: 7px solid #ff3d00;
+    border-left: 7px solid #ff3d00;
 }
 
 main .s4 .box h3 {

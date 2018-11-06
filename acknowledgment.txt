@@ -1,13 +1,13 @@
-= ACKNOWLEDGMENT =
-From Chengtao Hua, Andy Fessel & Camila Christensen
+== ACKNOWLEDGMENT ==
+FROM CHENGTAO HUA, ANDY FESSEL & CAMILA CHRISTENSEN
 
 We would like to extend our gratitude to authors of the following external sources, which are used during the creation of this webpage.
 
-* CODE
+* CODE *
 - AOS (Animate On Scroll Library) by Michal Sajnog (michalsnik). Source code and copyright statement available at https://github.com/michalsnik/aos
 - Responsive Vertical Timeline by CodyHouse. Source code and copyright statement available at https://github.com/CodyHouse/vertical-timeline
 
-* GRAPHICS FROM THE NOUN PROJECT (LICENSED UNDER CC BY 3.0 https://creativecommons.org/licenses/by/3.0/us/legalcode)
+* GRAPHICS FROM THE NOUN PROJECT (LICENSED UNDER CC BY 3.0 https://creativecommons.org/licenses/by/3.0/us/legalcode) *
 - "Lock" by Maxim Kulikov
 - "mask" by Adrien Coquet
 - "Network" by Vectors Market
@@ -17,5 +17,5 @@ We would like to extend our gratitude to authors of the following external sourc
 - "Energy" by Waleed Al-Alami
 - "Stop" by Alexandr Cherkinsky
 
-* WORKS CITED & REFERENCED
+* BIBLIOGRAPHY *
 - 
