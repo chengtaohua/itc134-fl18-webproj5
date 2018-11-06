@@ -272,36 +272,36 @@ main #s2 {
     background-size: cover;
 }
 
-main .s2 .year {
-    color: #00b358;
-    font-size: 4em;
-    padding: 0;
-    margin: 0;
-}
-
 main #s3 {
     background-image: linear-gradient(rgba(25, 36, 177, 0.75), rgba(25, 36, 177, 0.75)), url("img/s3.jpg");
     background-size: cover;
 }
 
-main .s3 .box {
-    background-color: #dddeed;
-}
-
-main .s3 .box h3 {
-    color: #1924b1;
-}
-
-main .s3 .box h3::after {
-    background-color: #1924b1;
-}
 
 main .s3 .pro {
     border-top: 7px solid #1924b1;
+    background-color: #dddeed;
+}
+
+main .s3 .pro h3 {
+    color: #1924b1;
+}
+
+main .s3 .pro h3::after {
+    background-color: #1924b1;
 }
 
 main .s3 .con {
-    border-bottom: 7px solid #1924b1;
+    border-bottom: 7px solid #666666;
+    background-color: #e5e5e5;
+}
+
+main .s3 .con h3 {
+    color: #666666;
+}
+
+main .s3 .con h3::after {
+    background-color: #666666;
 }
 
 
