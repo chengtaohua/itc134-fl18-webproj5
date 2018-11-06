@@ -198,9 +198,10 @@ main .box {
     text-align: center;
     overflow: visible;
     margin: 0.5em 1em 2.5em 0;
-    padding: 0.5em;
+    padding: 1em 0.5em 2em 0.5em;
     width: 45%;
-    height: 26em;
+    height: auto;
+    min-height: 500px;
 }
 
 main .box h3 {
@@ -222,6 +223,11 @@ main .box h3::after {
 main .box h3 .small {
     font-size: 0.5em;
     padding: 0;
+}
+
+main .box p {
+    max-width: 500px;
+    margin: auto;
 }
 
 footer, footer p {
