@@ -4,26 +4,24 @@
 html {
     font-family: "Titillium Web", "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
-    line-height: 1.5em;
-    background-image: linear-gradient(rgba(144, 144, 144, 0.75), rgba(144, 144, 144, 0.75)), url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Seattle_-_Crescent_Manufacturing_Company_-_1900.jpg");
+    line-height: 1.75em;
+    background-image: linear-gradient(rgba(144, 144, 144, 0.75), rgba(144, 144, 144, 0.75)), url("img/background.jpg");
     background-color: whitesmoke;
     background-size: contain;
     background-repeat: repeat-y;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    -webkit-hyphens: none;
     hyphens: none;
     overflow: hidden;
-    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
 }
 
 a, a:visited {
     text-decoration: none;
 }
-
-::selection, a:hover {
-    color: white;
-    background: #ff8c00;
-}
-
 
 nav {
     display: block;
@@ -53,15 +51,17 @@ nav ul {
     display: block;
     float: right;
     padding-right: 2em;
+    list-style-type: none;
 }
 
 nav ul li, nav ul li a {
     text-transform: capitalize;
+    list-style-type: none;
     color: white;
     display: block;
     float: left;
     margin-right: 1em;
-    width: 5.85em;
+    width: 6em;
     padding-left: 0.25em;
     -o-transition: width 0.25s;
     -ms-transition: width 0.25s;
@@ -79,12 +79,19 @@ nav ul li:hover, nav ul li a:hover {
 
 main {
     display: block;
-    width: 90%;
+    width: 80%;
     margin: auto;
     background-color: white;
     font-size: 1.25em;
     line-height: 1.75em;
-    
+}
+
+main a {
+    text-decoration: underline;
+}
+
+main a:hover {
+    text-decoration: none;
 }
 
 main section {
@@ -110,22 +117,123 @@ main section h2 {
     text-transform: uppercase;
 }
 
+main #youtube-video-container {
+    position: relative;
+    width: 100%;
+    height: 0%;
+    padding-bottom: 56.25%;
+}
+
+main #youtube-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
 main article {
     padding: 2em 2em 1em 2em;
-    width: 80%;
+    width: 90%;
     margin: auto;
+    text-align: justify;
+}
+
+main article h3 {
+    font-weight: 400;
+    font-size: 1.75em;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+main article img {
+    border: solid;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+main article figcaption {
+    text-align: center;
+    font-size: 0.85em;
+    line-height: 1.75em;
+    padding-top: 0.25em;
+    padding-bottom: 0;
+}
+
+main article details {
+    border-left: solid 7px;
+    padding: 0 0 0 1.25em;
+    margin: 0;
+    width: 70%;
+    font-size: 0.85em;
+    line-height: 1.75em;
+}
+
+main article ul, main article ul li {
+    text-align: left;
+    list-style-type: none;
+    padding: 0 0 0.5em 0;
+    margin: 0;
+}
+
+main article ul li {
+    margin-left: 2em;
+}
+
+main article ul li::before {
+    content: "> ";
+    margin-right: 2em;
+}
+
+main .row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main .box {
+    display: block;
+    text-align: center;
+    overflow: visible;
+    margin: 0.5em 1em 2.5em 0;
+    padding: 0.5em;
+    width: 45%;
+    height: 26em;
+}
+
+main .box h3 {
+    border: none;
+    font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+main .box h3::after {
+    content: " ";
+    display: inline-block;
+    height: 1px;
+    width: 80%;
+}
+
+main .box h3 .small {
+    font-size: 0.5em;
+    padding: 0;
 }
 
 footer, footer p {
     display: block;
-    width: 90%;
+    width: 80%;
     height: auto;
     margin: auto;
     padding: 0.25em 0 0.25em 0;
-    font-size: 1em;
-    line-height: 0.95em;
+    font-size: 1.05em;
+    line-height: 1em;
     text-align: center;
-    letter-spacing: 0.35em;
+    letter-spacing: 0.30em;
     text-transform: uppercase;
     color: white;
     background-color: #2D7AA8;
@@ -146,21 +254,81 @@ footer p a:hover {
 
 
 main #s1 {
-    background-image: linear-gradient(rgba(255, 140, 0, 0.75), rgba(255, 140, 0, 0.75)), url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Seattle_-_Crescent_Manufacturing_Company_-_1900.jpg");
+    background-image: linear-gradient(#ff8c00bf, #ff8c00bf), url("img/s1.jpg");
     background-size: cover;
+}
+
+main .s1 h3, main .s1 em, main .s1 details summary, main .s1 a, main .s1 a:visited, main .s1 ul li::before {
+    color: #ff8c00;
+    border-color: #ff8c00;
+}
+
+main .s1 img, main .s1 details {
+    border-color: #ff8c00;
 }
 
 main #s2 {
-    background-image: linear-gradient(rgba(0, 179, 88, 0.75), rgba(0, 179, 88, 0.75)), url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Seattle_-_Crescent_Manufacturing_Company_-_1900.jpg");
-    background-size: cover;
-} 
-
-main #s3 {
-    background-image: linear-gradient(rgba(25, 36, 177, 0.75), rgba(25, 36, 177, 0.75)), url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Seattle_-_Crescent_Manufacturing_Company_-_1900.jpg");
+    background-image: linear-gradient(#00b358bf, #00b358bf), url("img/s2.jpg");
     background-size: cover;
 }
 
-main #s4 {
-    background-image: linear-gradient(rgba(255, 61, 0, 0.75), rgba(255, 61, 0, 0.75)), url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Seattle_-_Crescent_Manufacturing_Company_-_1900.jpg");
+main #s3 {
+    background-image: linear-gradient(#1924b1bf, #1924b1bf), url("img/s3.jpg");
     background-size: cover;
-} 
+}
+
+
+main .s3 .pro {
+    border-top: 7px solid #1924b1;
+    background-color: #dddeed;
+}
+
+main .s3 .pro h3 {
+    color: #1924b1;
+}
+
+main .s3 .pro h3::after {
+    background-color: #1924b1;
+}
+
+main .s3 .con {
+    border-bottom: 7px solid #666666;
+    background-color: #e5e5e5;
+}
+
+main .s3 .con h3 {
+    color: #666666;
+}
+
+main .s3 .con h3::after {
+    background-color: #666666;
+}
+
+
+main #s4 {
+    background-image: linear-gradient(#ff3d00bf, #ff3d00bf), url("img/s4.jpg");
+    background-size: cover;
+}
+
+main .s4 .box {
+    background-color: #f8e2dc;
+    border-left: 7px solid #ff3d00;
+}
+
+main .s4 .box h3 {
+    color: #ff3d00;
+}
+
+main .s4 .box h3::after {
+    background-color: #ff3d00;
+}
+
+main #s5 {
+    background-image: linear-gradient(#666666bf, #666666bf), url("img/s5.jpg");
+    background-size: cover;
+}
+
+main .s3 h3 {
+    color: #666666;
+    border-color: #666666;
+}
