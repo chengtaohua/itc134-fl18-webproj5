@@ -3,7 +3,7 @@ FROM CHENGTAO HUA, ANDY FESSEL & CAMILA CHRISTENSEN
 
 We would like to extend our gratitude to authors of the following external sources, which are used during the creation of this webpage.
 
-* CODE *
+* CODES *
 - AOS (Animate On Scroll Library) by Michal Sajnog (michalsnik). Source code and copyright statement available at https://github.com/michalsnik/aos
 - Responsive Vertical Timeline by CodyHouse. Source code and copyright statement available at https://github.com/CodyHouse/vertical-timeline
 
