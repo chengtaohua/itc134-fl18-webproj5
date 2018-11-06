@@ -18,4 +18,13 @@ We would like to extend our gratitude to authors of the following external sourc
 - "Stop" by Alexandr Cherkinsky
 
 * BIBLIOGRAPHY *
-- 
+- Abusalah, Hamza, et al. "Beyond Hellman's Time-Memory Trade-Offs with Applications to Proofs of Space." Cryptology ePrint Archive. 2017. https://eprint.iacr.org/2017/893.pdf.
+- Bitcoin History: The Complete History of Bitcoin [Timeline]. http://historyofbitcoin.org/.
+- Dean, Colin. "When Will the Last Bitcoin Be Mined?" Bitcoin StackExchange. April 13, 2017. https://bitcoin.stackexchange.com/questions/10486/when-will-the-last-bitcoin-be-mined.
+- Foley, Sean, et al. "Sex, drugs, and bitcoin: How much illegal activity is financed through cryptocurrencies?" SSRN. October 21, 2018. https://ssrn.com/abstract=3102645.
+- Naumoff, Alicia. "Why Blockchain Needs 'Proof of Authority' Instead of 'Proof of Stake.'" Cointelegraph. https://cointelegraph.com/news/why-blockchain-needs-proof-of-authority-instead-of-proof-of-stake.
+- Park, Sunoo, et al. "SpaceMint: A Cryptocurrency Based on Proofs of Space." Cryptology ePrint Archive. 2015. https://eprint.iacr.org/2015/528.pdf.
+- "Proof of Work vs Proof of Stake: Basic Mining Guide." Blockgeeks. https://blockgeeks.com/guides/proof-of-work-vs-proof-of-stake/.
+- "Regulation of Cryptocurrency Around the World." The Law Library of Congress, Global Legal Research Center. June 2018. https://www.loc.gov/law/help/cryptocurrency/cryptocurrency-world-survey.pdf.
+- Roberts, Paul. "This Is What Happens When Bitcoin Miners Take Over Your Town." Politico. March/April 2018. https://www.politico.com/magazine/story/2018/03/09/bitcoin-mining-energy-prices-smalltown-feature-217230.
+- Xinhua. "China bars use of virtual money for trading in real goods." Ministry of Commerce, People's Republic of China. June 29, 2009. http://english.mofcom.gov.cn/aarticle/newsrelease/commonnews/200906/20090606364208.html.
