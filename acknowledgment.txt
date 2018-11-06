@@ -9,9 +9,9 @@ We would like to extend our gratitude to authors of the following external sourc
 
 * GRAPHICS FROM THE NOUN PROJECT (LICENSED UNDER CC BY 3.0 https://creativecommons.org/licenses/by/3.0/us/legalcode)
 - "Lock" by Maxim Kulikov
-- "quiet" by allex
-- "Network" by Vectors Market
 - "mask" by Adrien Coquet
+- "Network" by Vectors Market
+- "freedom" by Luis Prado
 - "Arrest" by Gan Khoon Lay
 - "indicators" by lev
 - "Energy" by Waleed Al-Alami
