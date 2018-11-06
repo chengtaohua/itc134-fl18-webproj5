@@ -23,6 +23,10 @@ a, a:visited {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 nav {
     display: block;
     position: fixed;
@@ -80,6 +84,7 @@ nav ul li:hover, nav ul li a:hover {
 main {
     display: block;
     width: 80%;
+    max-width: 1170px;
     margin: auto;
     background-color: white;
     font-size: 1.25em;
@@ -98,6 +103,7 @@ main section {
     position: relative;
     width: 100%;
     height: 15em;
+    min-height: 350px;
     margin: auto;
     margin-top: 3em;
     top: 0;
@@ -233,6 +239,7 @@ main .box p {
 footer, footer p {
     display: block;
     width: 80%;
+    max-width: 1170px;
     height: auto;
     margin: auto;
     padding: 0.25em 0 0.25em 0;
@@ -321,7 +328,7 @@ main .s4 .box {
     border-left: 7px solid #ff3d00;
 }
 
-main .s4 .box h3 {
+main .s4 .box h3, main .s4 a, main .s4 a:visited {
     color: #ff3d00;
 }
 
