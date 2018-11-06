@@ -254,7 +254,7 @@ footer p a:hover {
 
 
 main #s1 {
-    background-image: linear-gradient(rgba(255, 140, 0, 0.75), rgba(255, 140, 0, 0.75)), url("img/s1.jpg");
+    background-image: linear-gradient(#ff8c00bf, #ff8c00bf), url("img/s1.jpg");
     background-size: cover;
 }
 
@@ -268,12 +268,12 @@ main .s1 img, main .s1 details {
 }
 
 main #s2 {
-    background-image: linear-gradient(rgba(0, 179, 88, 0.75), rgba(0, 179, 88, 0.75)), url("img/s2.jpg");
+    background-image: linear-gradient(#00b358bf, #00b358bf), url("img/s2.jpg");
     background-size: cover;
 }
 
 main #s3 {
-    background-image: linear-gradient(rgba(25, 36, 177, 0.75), rgba(25, 36, 177, 0.75)), url("img/s3.jpg");
+    background-image: linear-gradient(#1924b1bf, #1924b1bf), url("img/s3.jpg");
     background-size: cover;
 }
 
@@ -306,7 +306,7 @@ main .s3 .con h3::after {
 
 
 main #s4 {
-    background-image: linear-gradient(rgba(255, 61, 0, 0.75), rgba(255, 61, 0, 0.75)), url("img/s4.jpg");
+    background-image: linear-gradient(#ff3d00bf, #ff3d00bf), url("img/s4.jpg");
     background-size: cover;
 }
 
@@ -321,4 +321,14 @@ main .s4 .box h3 {
 
 main .s4 .box h3::after {
     background-color: #ff3d00;
+}
+
+main #s5 {
+    background-image: linear-gradient(#666666bf, #666666bf), url("img/s5.jpg");
+    background-size: cover;
+}
+
+main .s3 h3 {
+    color: #666666;
+    border-color: #666666;
 }
