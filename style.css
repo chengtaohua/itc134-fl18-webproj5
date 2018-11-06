@@ -230,10 +230,10 @@ footer, footer p {
     height: auto;
     margin: auto;
     padding: 0.25em 0 0.25em 0;
-    font-size: 1em;
-    line-height: 0.95em;
+    font-size: 1.05em;
+    line-height: 1em;
     text-align: center;
-    letter-spacing: 0.35em;
+    letter-spacing: 0.30em;
     text-transform: uppercase;
     color: white;
     background-color: #2D7AA8;
