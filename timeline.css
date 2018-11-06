@@ -45,7 +45,7 @@
   margin: 1em 0;
 }
 
-.cd-timeline__block:after {
+.cd-timeline__block::after {
   /* clearfix */
   content: "";
   display: table;
@@ -95,7 +95,7 @@
   text-align: left;
 }
 
-.cd-timeline__content:after {
+.cd-timeline__content::after {
   /* clearfix */
   content: "";
   display: table;

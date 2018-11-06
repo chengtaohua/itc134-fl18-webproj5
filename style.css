@@ -247,6 +247,61 @@ main #s3 {
     background-size: cover;
 }
 
+main .s3 h3 {
+    color: #1924b1;
+    border-color: #1924b1;
+}
+
+main .s3 .row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main .s3 .box {
+    display: block;
+    text-align: center;
+    overflow: visible;
+    margin: 0.5em 1em 2.5em 0;
+    padding: 0.5em;
+    width: 45%;
+    height: auto;
+    background-color: #e5e5ff;
+}
+
+main .s3 .box h3 {
+    border: none;
+    color: #1924b1;
+    font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+main .s3 .box h3::after {
+    content: " ";
+    display: inline-block;
+    height: 1px;
+    width: 80%;
+    background-color: #1924b1;
+}
+
+main .s3 .box h3 .small {
+    font-size: 0.5em;
+    padding: 0;
+}
+
+main .s3 .pro {
+    border-top: 7px solid #1924b1;
+}
+
+main .s3 .con {
+    border-bottom: 7px solid #1924b1;
+}
+
+
+
 main #s4 {
     background-image: linear-gradient(rgba(255, 61, 0, 0.75), rgba(255, 61, 0, 0.75)), url("img/s4.jpg");
     background-size: cover;
